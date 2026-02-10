@@ -6,15 +6,27 @@ import { motion } from "framer-motion"
 
 const collections = [
   {
-    title: "Aso-Ebi",
-    subtitle: "Statement pieces for celebrations",
-    image: "/images/collection-aso-ebi.jpg",
-    href: "/shop?occasion=Aso-Ebi",
+    title: "Ankara Elegance",
+    subtitle: "Vibrant prints, stunning tailoring",
+    image: "/images/collection-ankara.svg",
+    href: "/shop?fabric=Ankara",
   },
   {
-    title: "Ready-to-Wear",
-    subtitle: "Everyday luxury, reimagined",
-    image: "/images/collection-ready-to-wear.jpg",
+    title: "Lace Royalty",
+    subtitle: "Exquisite gowns for celebration",
+    image: "/images/collection-lace.svg",
+    href: "/shop?fabric=Lace",
+  },
+  {
+    title: "Bubu Dreams",
+    subtitle: "Comfort meets chic sophistication",
+    image: "/images/collection-bubu.svg",
+    href: "/shop?occasion=Casual",
+  },
+  {
+    title: "Office Ready",
+    subtitle: "Professional Nigerian sophistication",
+    image: "/images/collection-office-wear.svg",
     href: "/shop?occasion=Ready-to-Wear",
   },
 ]
@@ -37,33 +49,33 @@ export function CollectionsSection() {
         </h2>
       </motion.div>
 
-      <div className="grid md:grid-cols-2 gap-4 md:gap-6 max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 max-w-7xl mx-auto">
         {collections.map((col, i) => (
           <motion.div
             key={col.title}
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: i * 0.15 }}
+            transition={{ duration: 0.6, delay: i * 0.12 }}
           >
             <Link href={col.href} className="group block relative overflow-hidden">
-              <div className="relative aspect-[4/5] md:aspect-[3/4]">
+              <div className="relative aspect-[4/5] md:aspect-[4/6]">
                 <Image
                   src={col.image || "/placeholder.svg"}
                   alt={col.title}
                   fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />
-                <div className="absolute inset-0 bg-foreground/20 group-hover:bg-foreground/30 transition-colors" />
-                <div className="absolute inset-0 flex flex-col items-center justify-end pb-10 px-5 text-center">
-                  <h3 className="font-serif text-2xl md:text-4xl text-background mb-2">
+                <div className="absolute inset-0 bg-black/30 group-hover:bg-black/45 transition-colors duration-300" />
+                <div className="absolute inset-0 flex flex-col items-center justify-end pb-6 px-4 text-center">
+                  <h3 className="font-serif text-lg md:text-2xl text-white mb-1 text-balance">
                     {col.title}
                   </h3>
-                  <p className="text-sm text-background/80 font-sans mb-4">
+                  <p className="text-xs md:text-sm text-white/85 font-sans mb-3">
                     {col.subtitle}
                   </p>
-                  <span className="text-xs tracking-[0.2em] uppercase text-background font-sans border-b border-background/50 pb-1 group-hover:border-background transition-colors">
+                  <span className="text-xs tracking-[0.2em] uppercase text-white font-sans border-b border-white/60 pb-1 group-hover:border-white transition-colors">
                     Explore
                   </span>
                 </div>

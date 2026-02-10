@@ -13,7 +13,7 @@ export function FeaturedProducts() {
 
   return (
     <>
-      <section id="shop" className="px-5 md:px-10 py-16 md:py-24">
+      <section id="shop" className="px-5 md:px-10 py-16 md:py-24 bg-white">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -21,12 +21,15 @@ export function FeaturedProducts() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12 md:mb-16"
         >
-          <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-3 font-sans">
-            Just Arrived
+          <p className="text-xs tracking-[0.3em] uppercase text-red-600 font-bold mb-3 font-sans">
+            This Season's Treasures
           </p>
           <h2 className="font-serif text-3xl md:text-5xl text-foreground text-balance">
-            New Arrivals
+            Ankara, Lace & Everything Nice
           </h2>
+          <p className="text-sm md:text-base text-foreground/60 font-sans mt-3 max-w-2xl mx-auto">
+            Carefully curated Nigerian attire featuring authentic Ankara prints, exquisite Lace gowns, elegant Bubu styles, and sophisticated office wear
+          </p>
         </motion.div>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 max-w-7xl mx-auto">
           {featured.map((product, index) => (
@@ -47,9 +50,9 @@ export function FeaturedProducts() {
         >
           <Link
             href="/shop"
-            className="inline-flex items-center justify-center px-10 py-4 border border-foreground text-foreground text-xs tracking-[0.25em] uppercase font-sans hover:bg-foreground hover:text-background transition-colors min-h-[44px]"
+            className="inline-flex items-center justify-center px-10 py-4 bg-red-600 text-white text-xs tracking-[0.25em] uppercase font-sans hover:bg-red-700 transition-colors min-h-[44px]"
           >
-            View All Pieces
+            Explore Full Collection
           </Link>
         </motion.div>
       </section>

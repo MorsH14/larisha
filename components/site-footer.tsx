@@ -14,7 +14,7 @@ export function SiteFooter() {
               Larisha
             </Link>
             <p className="text-sm text-muted-foreground font-sans leading-relaxed mt-3">
-              Modern Afro-minimalist fashion. Where Nigerian heritage meets contemporary elegance.
+              Premium Nigerian attire. Ankara, Lace, Bubu, and contemporary office wear celebrating African excellence. Proudly Lagos-based, globally inspired.
             </p>
             <div className="flex gap-4 mt-5">
               <a

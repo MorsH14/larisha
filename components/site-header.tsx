@@ -21,8 +21,8 @@ export function SiteHeader() {
     <>
       <header
         className={`fixed left-0 right-0 z-50 transition-all duration-300 ${scrolled
-            ? "top-0 border-b border-border bg-background/80 backdrop-blur-md"
-            : "top-[32px] md:top-[28px] bg-transparent"
+          ? "top-0 border-b border-border bg-background/80 backdrop-blur-md"
+          : "top-[32px] md:top-[28px] bg-transparent"
           }`}
       >
         <div className="flex items-center justify-between px-5 md:px-10 h-16 md:h-20">
@@ -37,31 +37,37 @@ export function SiteHeader() {
           <nav className="hidden md:flex items-center gap-8">
             <Link
               href="/shop"
-              className="text-xs tracking-[0.2em] uppercase text-foreground hover:text-accent transition-colors"
+              className="text-xs tracking-[0.2em] uppercase text-foreground hover:text-red-600 transition-colors"
             >
               Shop
             </Link>
             <Link
+              href="/shop?fabric=Ankara"
+              className="text-xs tracking-[0.2em] uppercase text-foreground hover:text-red-600 transition-colors"
+            >
+              Ankara
+            </Link>
+            <Link
+              href="/shop?fabric=Lace"
+              className="text-xs tracking-[0.2em] uppercase text-foreground hover:text-red-600 transition-colors"
+            >
+              Lace
+            </Link>
+            <Link
               href="/shop?occasion=Aso-Ebi"
-              className="text-xs tracking-[0.2em] uppercase text-foreground hover:text-accent transition-colors"
+              className="text-xs tracking-[0.2em] uppercase text-foreground hover:text-red-600 transition-colors"
             >
               Aso-Ebi
             </Link>
             <Link
               href="/#story"
-              className="text-xs tracking-[0.2em] uppercase text-foreground hover:text-accent transition-colors"
+              className="text-xs tracking-[0.2em] uppercase text-foreground hover:text-red-600 transition-colors"
             >
-              Our Story
-            </Link>
-            <Link
-              href="/consultation"
-              className="text-xs tracking-[0.2em] uppercase text-foreground hover:text-accent transition-colors"
-            >
-              Bespoke
+              Story
             </Link>
             <Link
               href="/contact"
-              className="text-xs tracking-[0.2em] uppercase text-foreground hover:text-accent transition-colors"
+              className="text-xs tracking-[0.2em] uppercase text-foreground hover:text-red-600 transition-colors"
             >
               Contact
             </Link>
