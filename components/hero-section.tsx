@@ -8,7 +8,7 @@ export function HeroSection() {
   return (
     <section className="relative w-full h-screen min-h-[600px] overflow-hidden">
       <Image
-        src="/images/hero-new.jpg"
+        src="/images/image.png"
         alt="Larisha Nigerian Attire Collection - Ankara, Lace, Bubu, Office Wear"
         fill
         className="object-cover"
