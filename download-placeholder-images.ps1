@@ -81,6 +81,26 @@ Download-Image "https://picsum.photos/seed/prod15b/800/1000" "$imageDir\product-
 Download-Image "https://picsum.photos/seed/prod16a/800/1000" "$imageDir\product-16a.jpg"
 Download-Image "https://picsum.photos/seed/prod16b/800/1000" "$imageDir\product-16b.jpg"
 
+# Products 17-25
+Download-Image "https://picsum.photos/seed/prod17a/800/1000" "$imageDir\product-17a.jpg"
+Download-Image "https://picsum.photos/seed/prod17b/800/1000" "$imageDir\product-17b.jpg"
+Download-Image "https://picsum.photos/seed/prod18a/800/1000" "$imageDir\product-18a.jpg"
+Download-Image "https://picsum.photos/seed/prod18b/800/1000" "$imageDir\product-18b.jpg"
+Download-Image "https://picsum.photos/seed/prod19a/800/1000" "$imageDir\product-19a.jpg"
+Download-Image "https://picsum.photos/seed/prod19b/800/1000" "$imageDir\product-19b.jpg"
+Download-Image "https://picsum.photos/seed/prod20a/800/1000" "$imageDir\product-20a.jpg"
+Download-Image "https://picsum.photos/seed/prod20b/800/1000" "$imageDir\product-20b.jpg"
+Download-Image "https://picsum.photos/seed/prod21a/800/1000" "$imageDir\product-21a.jpg"
+Download-Image "https://picsum.photos/seed/prod21b/800/1000" "$imageDir\product-21b.jpg"
+Download-Image "https://picsum.photos/seed/prod22a/800/1000" "$imageDir\product-22a.jpg"
+Download-Image "https://picsum.photos/seed/prod22b/800/1000" "$imageDir\product-22b.jpg"
+Download-Image "https://picsum.photos/seed/prod23a/800/1000" "$imageDir\product-23a.jpg"
+Download-Image "https://picsum.photos/seed/prod23b/800/1000" "$imageDir\product-23b.jpg"
+Download-Image "https://picsum.photos/seed/prod24a/800/1000" "$imageDir\product-24a.jpg"
+Download-Image "https://picsum.photos/seed/prod24b/800/1000" "$imageDir\product-24b.jpg"
+Download-Image "https://picsum.photos/seed/prod25a/800/1000" "$imageDir\product-25a.jpg"
+Download-Image "https://picsum.photos/seed/prod25b/800/1000" "$imageDir\product-25b.jpg"
+
 Write-Host "`n✓ Download complete!" -ForegroundColor Green
 Write-Host "All images saved to: $imageDir" -ForegroundColor Yellow
 Write-Host "`nThese are placeholder images to get your site working." -ForegroundColor Cyan

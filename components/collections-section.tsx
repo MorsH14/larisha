@@ -8,13 +8,13 @@ const collections = [
   {
     title: "Ankara Elegance",
     subtitle: "Vibrant prints, stunning tailoring",
-    image: "/images/collection-ankara.svg",
+    image: "/images/collection-ankara.jpg",
     href: "/shop?fabric=Ankara",
   },
   {
     title: "Lace Royalty",
     subtitle: "Exquisite gowns for celebration",
-    image: "/images/collection-lace.svg",
+    image: "/images/collection-lace.jpg",
     href: "/shop?fabric=Lace",
   },
   {
@@ -26,7 +26,7 @@ const collections = [
   {
     title: "Office Ready",
     subtitle: "Professional Nigerian sophistication",
-    image: "/images/collection-office-wear.svg",
+    image: "/images/collection-office.svg",
     href: "/shop?occasion=Ready-to-Wear",
   },
 ]

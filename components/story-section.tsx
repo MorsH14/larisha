@@ -16,7 +16,7 @@ export function StorySection() {
           className="relative aspect-[4/5] overflow-hidden rounded-lg shadow-lg"
         >
           <Image
-            src="/images/story-nigerian-heritage.svg"
+            src="/images/story.jpg"
             alt="Larisha Nigerian Fashion Heritage - crafted in Lagos"
             fill
             className="object-cover"

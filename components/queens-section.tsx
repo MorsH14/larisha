@@ -6,11 +6,11 @@ import { motion } from "framer-motion"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const queens = [
-  { image: "/images/queen-1.svg", name: "@adaeze_style", caption: "Ankara corset elegance" },
-  { image: "/images/queen-2.svg", name: "@chidinma_glow", caption: "Lace gown magic" },
-  { image: "/images/queen-3.svg", name: "@nkechi_art", caption: "Bubu dreams" },
-  { image: "/images/queen-4.svg", name: "@amara_boss", caption: "Office wear power" },
-  { image: "/images/queen-5.svg", name: "@blessing_chic", caption: "Aso-Ebi celebration" },
+  { image: "/images/queen-1.jpg", name: "@adaeze_style", caption: "Ankara corset elegance" },
+  { image: "/images/queen-2.jpg", name: "@chidinma_glow", caption: "Lace gown magic" },
+  { image: "/images/queen-3.jpg", name: "@nkechi_art", caption: "Bubu dreams" },
+  { image: "/images/queen-4.jpg", name: "@amara_boss", caption: "Office wear power" },
+  { image: "/images/queen-5.jpg", name: "@blessing_chic", caption: "Aso-Ebi celebration" },
 ]
 
 export function QueensSection() {
