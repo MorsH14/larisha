@@ -8,25 +8,25 @@ const collections = [
   {
     title: "Ankara Elegance",
     subtitle: "Vibrant prints, stunning tailoring",
-    image: "/images/image.png",
+    image: "/images/image copy 2.png",
     href: "/shop?fabric=Ankara",
   },
   {
     title: "Lace Royalty",
     subtitle: "Exquisite gowns for celebration",
-    image: "/images/image.png",
+    image: "/images/image copy 3.png",
     href: "/shop?fabric=Lace",
   },
   {
     title: "Bubu Dreams",
     subtitle: "Comfort meets chic sophistication",
-    image: "/images/image.png",
+    image: "/images/image copy 4.png",
     href: "/shop?occasion=Casual",
   },
   {
     title: "Office Ready",
     subtitle: "Professional Nigerian sophistication",
-    image: "/images/image.png",
+    image: "/images/image copy 5.png",
     href: "/shop?occasion=Ready-to-Wear",
   },
 ]
